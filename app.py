@@ -24,7 +24,7 @@ def main():
     
     st.markdown(html_template, unsafe_allow_html=True)
     
-    st.sidebar.image("covid-19.webp", width=250)
+    st.sidebar.image("./images/covid-19.webp", width=250)
     
     image_file = st.sidebar.file_uploader("Upload yout image file")
     if image_file is not None:
